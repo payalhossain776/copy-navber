@@ -1,4 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Mulish:wght@400;800&family=Open+Sans:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
 body{
     font-family: 'Mulish', sans-serif;
 }
+
+.bangla{
+    max-width: 1170px;
+    height: 940px;
+    border: 3px solid yellow;
+    margin: 20px 330px;
+
+
+}
+.bangla .img-all-z{
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bangla .img-all-x{
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bangla .img-all-y{
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.box-a{
+    background-image: url('img/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+.box-b{
+    background-image: url('img/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}.box-c{
+    background-image: url('img/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+}
+.box-d{
+    background-image: url('img/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+}
+.box-e{
+    background-image: url('img/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+}.box-f{
+    background-image: url('img/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+}
+.box-g{
+    background-image: url('img/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 286px;
+    border-radius: 16px;
+}
+
+
