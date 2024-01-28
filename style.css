@@ -185,6 +185,15 @@ body{
     background: rgba(233, 68, 68, 0.05);  
     display: grid;
 }
+.newsletter{
+    width: 1170px;
+    height: 422px;
+    border: 3px solid yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media screen and (max-width : 600px) {
 
     .bangla .img-all-z{
