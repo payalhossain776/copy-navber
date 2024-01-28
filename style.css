@@ -36,6 +36,11 @@ body{
 }
 /* bannersection completed */
 
+
+
+
+
+/* imgportfolio section start */
 .bangla .img-all-z{
     display: flex;
     gap: 20px;
@@ -185,15 +190,82 @@ body{
     background: rgba(233, 68, 68, 0.05);  
     display: grid;
 }
+/* about section completes */
+/* newletter section start */
+.letter{
+    width: 480px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    display: grid;
+    gap: 15px;
+    margin: 20px;
+    padding: 40px;
+}
+.text-letter{
+    display: grid;
+    gap: 20px;
+}
+.text-letter h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.text-letter p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.from{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.name{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+.enter{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+.sub{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
 .newsletter{
     width: 1170px;
     height: 422px;
-    border: 3px solid yellowgreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.img-letter img{
+    width: 650px;
+    height: 390px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/* newsletter section end */
+/* recponsive section start */
 @media screen and (max-width : 600px) {
 
     .bangla .img-all-z{
@@ -223,9 +295,12 @@ body{
     .head{
         flex-direction: column;
     }
+    .newsletter{
+        flex-direction: column;
+    }
+    .letter{
+        flex-direction: column;
 }
-
-
-/* about section close */
-
+}
+/* responsive portfolio end */
 
