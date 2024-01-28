@@ -3,12 +3,39 @@
     margin: 0;
     padding: 0;
 }
+/* shere item */
 body{
     font-family: 'Mulish', sans-serif;
     max-width: 1170px;
     height: auto;
     margin: 15px auto;
 }
+/* shere item end */
+/* banner section start */
+.banner-section{
+    width: 1170px;
+    height: 500px;
+    /* border: 3px solid yellow; */
+    background-image: url('img/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+}
+.banner-section .banner{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+/* bannersection completed */
+
 .bangla .img-all-z{
     display: flex;
     gap: 20px;
@@ -178,7 +205,16 @@ body{
     .info-c .price{
         flex-direction: column;
     }
+    .banner-section{
+        flex-direction: column;
     }
+    .banner{
+        flex-direction: column;
+    }
+    .head{
+        flex-direction: column;
+    }
+}
 
 
 /* about section close */
