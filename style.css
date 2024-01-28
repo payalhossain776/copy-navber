@@ -10,6 +10,21 @@ body{
     height: auto;
     margin: 15px auto;
 }
+body{
+    /* max-width: 1250px; */
+    font-family: 'Mulish', sans-serif;
+}
+h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
 /* shere item end */
 /* banner section start */
 .banner-section{
@@ -35,7 +50,40 @@ body{
     text-align: center;
 }
 /* bannersection completed */
-
+/* himacal,climate start */
+.himachal{
+    display: flex;
+    gap: 50px;
+    max-width: 1170px;
+    margin: 10px auto ;
+}
+.climate{
+    display: grid;
+    gap: 20px;
+}
+.climate li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.climate .btn{
+    width: 160px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+.pahar img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 
 
 
@@ -301,6 +349,18 @@ body{
     .letter{
         flex-direction: column;
 }
+.himachal{
+        flex-direction: column;
+    }
+    .climate{
+        flex-direction: column;
+    } 
+     .himachal{
+        flex-direction: column;
+    }
+    .climate{
+        flex-direction: column;
+    }
 }
 /* responsive portfolio end */
 
